@@ -115,6 +115,8 @@ namespace ProcessRecorder
 
         private void ToolStripMenuItem01_Click(object sender, EventArgs e)
         {
+            logger.Info("Application exit");
+
             Application.Exit();
 
         }
